@@ -3,7 +3,7 @@ using namespace std;
 
 class hashtest1
 {
-static const int ARRAYSIZE = 53;
+static const int ARRAYSIZE = 31;
 private:
    string items[ARRAYSIZE];
 
@@ -18,7 +18,7 @@ public:
 
 class hashtest2
 {
-static const int ARRAYSIZE = 53;
+static const int ARRAYSIZE = 31;
 private:
    struct hashnode
    {

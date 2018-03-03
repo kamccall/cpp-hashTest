@@ -26,6 +26,13 @@ void hashtest1::insert(string word)
     int index = total % ARRAYSIZE;
 
     // insert into items array
+    // use linear probing to just put in next available
+    while (items[index] != "") 
+    {
+        index = (index + 1) % ARRAYSIZE;
+    }
+
+    // insert into open slot
     items[index] = word;
 }
 
